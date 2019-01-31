@@ -16,7 +16,7 @@
         <nav>
             <ul class="nav nav-pills float-right">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About me
+                    <a class="nav-link" href="#" data-value="about-me">About me
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -26,14 +26,17 @@
 
     <main role="main">
 
-            <div class="card w-100">
-                <div class="card-img-top d-flex align-items-center bg-light">
-                    <div>
-                        <img class="img-fluid" src="./images/me.png" alt="Dimitar Dimitrov">
-                    </div>
-                    <p class="col p-4 m-0">A little presentation about me</p>
+        <div class="card w-100" id="about-me">
+            <div class="card-img-top d-flex align-items-center bg-light">
+                <div>
+                    <img class="img-thumbnail rounded" src="./images/me.png" alt="Dimitar Dimitrov">
                 </div>
+                <p class="col p-4 m-0">
+                    My name is Dimitar Aleksandrov Dimitrov. I was born on 13th May, 1992 in Veliko Tarnovo,
+                    Bulgaria. Currently living in Sofia, Bulgaria.
+                </p>
             </div>
+        </div>
 
         <div class="row marketing">
 
@@ -51,6 +54,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!--Load bootstrap JavaScript-->
 <script src="./js/bootstrap.min.js"></script>
+<!--Loading app custom js-->
+<script src="./js/app.js"></script>
 
 </body>
 </html>
