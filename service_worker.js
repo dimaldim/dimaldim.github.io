@@ -1,5 +1,5 @@
 var cacheName = 'cache-example'; 
-var cacheAssets = []; 
+var cacheAssets = ['assets/nature1.jpg', 'assets/nature2.jpg']; 
   
 self.addEventListener('install', e => { 
     e.waitUntil( 
