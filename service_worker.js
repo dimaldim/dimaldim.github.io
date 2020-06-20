@@ -10,7 +10,7 @@ self.addEventListener('install', e => {
                 .then(() => self.skipWaiting()) 
         }) 
     ); 
-}) 
+});
 
 self.addEventListener('activate', e => { 
     console.log('Service Worker: Activated'); 
